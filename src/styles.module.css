@@ -1,9 +1,22 @@
 /* add css module styles here (optional) */
+.container-div {
+  display: inline;
+  padding: 10px;
+}
+.btnBasic {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: transparent;
+}
+.btnBasic:active,
+.btnBasic:focus {
+  transform: translateY(5px);
+  box-shadow: none;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.rounded {
+  border-radius: 80px;
 }
